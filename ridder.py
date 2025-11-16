@@ -1,7 +1,6 @@
 '''
-Created on 2014
-
-@author: Heravi
+@author: Mohammad E. Heravifard
+Supervisor: Prof. Parviz Ghadimi
 '''
 ## module ridder
 ''' root = ridder(f,a,b,tol=1.0e-9).
@@ -43,3 +42,4 @@ def ridder(f,a,b,tol=1.0e-9):
 
 
     
+
