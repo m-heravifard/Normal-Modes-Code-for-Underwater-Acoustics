@@ -1,7 +1,6 @@
 '''
-Created on 2014
-
-@author: Heravi
+@author: Mohammad E. Heravifard
+Supervisor: Prof. Parviz Ghadimi
 '''
 ## module inversePower3
 ''' lam,x = inversePower3(d,c,s,tol=1.0e-6).
@@ -36,5 +35,6 @@ def inversePower3(d,c,s,tol=1.0e-6):
     
    
    
+
 
 
