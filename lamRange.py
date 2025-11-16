@@ -1,7 +1,6 @@
 '''
-Created on 2014
-
-@author: Heravi
+@author: Mohammad E. Heravifard
+Supervisor: Prof. Parviz Ghadimi
 '''
 ## module lamRange
 ''' r = lamRange(d,c,N).
@@ -35,4 +34,5 @@ def lamRange(d,c,N):
 # of search and record it in [r]
         lamMax = lam
         r[k] = lam
+
     return r
