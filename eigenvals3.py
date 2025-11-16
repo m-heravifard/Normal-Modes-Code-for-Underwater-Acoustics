@@ -1,7 +1,6 @@
 '''
-Created on 2014
-
-@author: Heravi
+@author: Mohammad E. Heravifard
+Supervisor: Prof. Parviz Ghadimi
 '''
 ## module eigenvals3
 ''' lam = eigenvals3(d,c,N).
@@ -23,4 +22,5 @@ def eigenvals3(d,c,N):
     for i in range(N): 
         lam[i] = ridder(f,r[i],r[i+1])
     return lam
+
 
