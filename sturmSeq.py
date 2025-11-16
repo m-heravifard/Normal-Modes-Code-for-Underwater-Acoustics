@@ -1,7 +1,6 @@
 '''
-Created on 2014
-
-@author: Heravi
+@author: Mohammad E. Heravifard
+Supervisor: Prof. Parviz Ghadimi
 '''
 ## module sturmSeq
 ''' p = sturmSeq(c,d,lam).
@@ -37,6 +36,7 @@ def numLambdas(p):
         if sign*signOld < 0: numLam = numLam + 1
         signOld = sign
     return numLam
+
 
 
 
