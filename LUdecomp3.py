@@ -1,7 +1,6 @@
 '''
-Created on 2014
-
-@author: Heravi
+@author: Mohammad E. Heravifard
+Supervisor: Prof. Parviz Ghadimi
 '''
 ## module LUdecomp3
 ''' c,d,e = LUdecomp3(c,d,e).
@@ -27,6 +26,7 @@ def LUsolve3(c,d,e,b):
     for k in range(n-2,-1,-1):
         b[k] = (b[k] - e[k]*b[k+1])/d[k]
     return b
+
 
 
 
