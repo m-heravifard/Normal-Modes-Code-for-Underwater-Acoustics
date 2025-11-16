@@ -1,7 +1,6 @@
 '''
-Created on 2014
-
-@author: Heravi
+@author: Mohammad E. Heravifard
+Supervisor: Prof. Parviz Ghadimi
 '''
 ## module gerschgorin
 ''' lamMin,lamMax = gerschgorin(d,c).
@@ -25,3 +24,4 @@ def gerschgorin(d,c):
     lam = d[n-1] + abs(c[n-2])
     if lam > lamMax: lamMax = lam
     return lamMin,lamMax
+
