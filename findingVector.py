@@ -1,7 +1,6 @@
 '''
-Created on 2014
-
-@author: M.E. Heravifard
+@author: Mohammad E. Heravifard
+Supervisor: Prof. Parviz Ghadimi
 '''
 from math import sqrt
 #from numpy import dot
@@ -70,3 +69,4 @@ print xx
 
 
     
+
