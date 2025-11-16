@@ -24,3 +24,4 @@ def eigenvals3(d,c,N):
     return lam
 
 
+
