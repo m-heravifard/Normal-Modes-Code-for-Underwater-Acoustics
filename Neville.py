@@ -1,7 +1,6 @@
 '''
-Created on 2014
-
-@author: Heravi
+@author: Mohammad E. Heravifard
+Supervisor: Prof. Parviz Ghadimi
 '''
 
 
@@ -19,6 +18,7 @@ def neville(xData,yData,x):
             y[i] = ((x - xData[i+k])*y[i] + (xData[i] - x)*y[i+1])/ \
             (xData[i]-xData[i+k])
     return y[0]
+
 
 
 #print neville(xData,yData,x)
